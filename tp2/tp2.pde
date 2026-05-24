@@ -1,13 +1,3 @@
-float x00;
-float x0;
-float y0;
-float y00;
-float x5;
-float x6;
-float y4;
-float x3;
-float x4;
-float y3;
 float y1;
 float y2;
 float t = 0;
@@ -56,8 +46,7 @@ void draw(){
   textFont(titulos, 20);
   if(contador == 0){
   inicio();
-  botton();
-  
+  botton();
   }
   empiezo();
   textFont(textos,20);
@@ -67,15 +56,12 @@ void draw(){
   p4();
   p5();
   p6();
-  p7();
-  //println(contador);
-  FIN();
-  //println(frameRate);
-
+  p7();
+  FIN();
+  println(contador);
 }
 
 void mousePressed(){
   empezar();
   botfin();
-  println(mouseX,mouseY);  
 }
