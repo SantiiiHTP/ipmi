@@ -43,7 +43,8 @@ boolean rcolor = false;
 float recolor;
 float elcolor;
 
-// la distancia entre el mouse X e Y y la posicion de la figura
+// variabl que va a almacenar la distancia entre la posicion de
+//mouse X e Y y la posicion de la figura + dx e dy
 float dis;
 
 // variable que almacena el valor que generara una rotacion en el amgulo de la figra
