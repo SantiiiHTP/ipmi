@@ -15,26 +15,45 @@
 //de la figura su angulo todo se reinicia con el clic
 
 
-// la imagen
+// PImage que se usa para dibujar la imagen
 PImage tp3;
 
-float tam = 116;
 // los grises
 float g1 = 0;
 float g2 = 255;
+
+// si esta variable es false la figura sigue igual pero si
+// es true los colores de la figura se invierten
 boolean invertido = false;
+
+// se la variable es false la figura sigue en suj lugar pero si es true la
+// figura se movera a posiscion en X e Y del mouse en cada frame
 boolean mover = false;
+
+// los valores qu almacenan la posicion del mouse en X Y
 float dx = 0;
 float dy = 0;
+
+// su la variable es false el color de la figura es normal pero si es true
+// la figura con cada ves que se le a la tecla "g" cambiara los colores de las
+// figuras en una escala de grises aleatoria
 boolean rcolor = false;
+
 //las variables de cambio de colores entre grises
 float recolor;
 float elcolor;
-// la distancia entre
+
+// la distancia entre el mouse X e Y y la posicion de la figura
 float dis;
+
+// variable que almacena el valor que generara una rotacion en el amgulo de la figra
 float angle;
+
+// si la variable es false el angulo de la figura sigue igual pero si es true
+// el angulo de la figura cambiara dependiendo de la posicion del mouse
 boolean ro = false;
-//fondo invertido o no
+
+//variable que almacena el color del fondo y su esta invertido o no
 color fondo = 0;
 
 void setup(){
