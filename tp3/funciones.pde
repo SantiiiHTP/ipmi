@@ -2,12 +2,12 @@ void Ilu(float x, float y){
   pushMatrix();
   translate(x , y);
   rotate(angle);
-  for (float t =400; t >20; t *=0.7) {// el primer for disminuue el tamaño de las ellipse y los rect desde 400 hasta menos de 20
+  for (float t =400; t >can; t *=0.7) {// el primer for disminuue el tamaño de las ellipse y los rect desde 400 hasta menos de 20
     for (int i = 0; i <2; i++ ) {// y el segundo calcula si ya se dibujaron todas las elipse y los rect
-      g1 = map(t, 400, 20, 0, 128);//calculo que 0 sea 400 y que cuando t sea 20 g1 sera 128
-      g1 = constrain(g1, 0, 128);//limito g1 a 0 de minima y 128 de maxima
-      g2 = map(t, 400, 20, 255, 130);// calculo que el minimo 255 sea 400 y que cando t sea 20 g2 sera 130
-      g2 = constrain(g2, 128, 255);//limito g2 a 128 de minima y 255 de maxima
+      g1 = map(t, 400, 20, 0, 180);//calculo que 0 sea 400 y que cuando t sea 20 g1 sera 128
+      g1 = constrain(g1, 0, 180);//limito g1 a 0 de minima y 128 de maxima
+      g2 = map(t, 400, 20, 255, 185);// calculo que el minimo 255 sea 400 y que cando t sea 20 g2 sera 130
+      g2 = constrain(g2, 185, 255);//limito g2 a 128 de minima y 255 de maxima
       
       //al el for reiniciarse cuando se dibujan una ves cuando el primer for resta vuelve a iniciar el segundo
       //y i vuenve a ser 0 de manera que se repatira el dinujo de rect y ellipse hasta que t sea < a 20
