@@ -14,6 +14,8 @@
 // R: para reiniciar todo lo que hayas hecho el nvertir color los grises randomsla posicion
 // de la figura su angulo todo se reinicia con el clic
 
+// variable que almacena el limite el cual puede alcanzar el ciclo for
+float can = 20;
 
 // PImage que se usa para dibujar la imagen
 PImage tp3;
