@@ -1,18 +1,18 @@
-//Santiago Ramirez tp3 OpArt con Funciones y Ciclo For comision #3
-//Profesor: David Bedoian
-//Acciones
-//I: para invertir los colors de la figura
+// Santiago Ramirez tp3 OpArt con Funciones y Ciclo For comision #3
+// Profesor: David Bedoian
+// Acciones
+// I: para invertir los colors de la figura
 
-//G: para generar un color random de grises
+// G: para generar un color random de grises
 
-//Clic izquierdo: movera las corrdenadas de la figura a laposicion del mouse
-//vuvlva a presionar el clic para detener el evento
+// Clic izquierdo: movera las corrdenadas de la figura a laposicion del mouse
+// vuvlva a presionar el clic para detener el evento
 
-//Clic derecgo: hara que al mover el mouse la figura rotara en distintos angulos
-//vulva a presionar el clic para detener el evento
+// Clic derecgo: hara que al mover el mouse la figura rotara en distintos angulos
+// vulva a presionar el clic para detener el evento
 
-//R: para reiniciar todo lo que hayas hecho el nvertir color los grises randomsla posicion
-//de la figura su angulo todo se reinicia con el clic
+// R: para reiniciar todo lo que hayas hecho el nvertir color los grises randomsla posicion
+// de la figura su angulo todo se reinicia con el clic
 
 
 // PImage que se usa para dibujar la imagen
@@ -39,11 +39,12 @@ float dy = 0;
 // figuras en una escala de grises aleatoria
 boolean rcolor = false;
 
-//las variables de cambio de colores entre grises
+// las variables de cambio de colores entre grises "recolor" de el color de
+// los rect y "elcolor" de el color de las ellipses
 float recolor;
 float elcolor;
 
-// variabl que va a almacenar la distancia entre la posicion de
+// variable que va a almacenar la distancia entre la posicion de
 //mouse X e Y y la posicion de la figura + dx e dy
 float dis;
 
@@ -54,7 +55,7 @@ float angle;
 // el angulo de la figura cambiara dependiendo de la posicion del mouse
 boolean ro = false;
 
-//variable que almacena el color del fondo y su esta invertido o no
+// variable que almacena el color del fondo y su esta invertido o no
 color fondo = 0;
 
 void setup(){
