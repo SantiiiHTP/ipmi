@@ -16,10 +16,10 @@ void Ilu(float x, float y){
         if(rcolor){
           fill(recolor);
         }else{
-          if (invertido) {// si inv es falso el fondo y los rect son negro
+          if (invertido) {// si inv es true el fondo y los rect son negro
             fill(255 - g1);
             fondo = color(255);
-          } else {//pero si es true los rect y el fondo seran blancos
+          } else {//pero si es fase los rect y el fondo seran blancos
             fill(g1);
             fondo = color(0);
           }
@@ -32,9 +32,9 @@ void Ilu(float x, float y){
         if(rcolor){
           fill(elcolor);
         }else{
-          if (invertido) {//si inv el falso la ellipse seria blanca 
+          if (invertido) {//si inv el true la ellipse seria blanca 
             fill(255 - g2);
-          } else {// pero si es true la ellipse sera negra
+          } else {// pero si es false la ellipse sera negra
             fill(g2);
           }
         }
