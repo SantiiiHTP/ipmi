@@ -1,7 +1,10 @@
 // Santiago Ramirez tp3 OpArt con Funciones y Ciclo For comision #3
+// Legajo: 120359/8
 // Profesor: David Bedoian
 // Acciones
 // I: para invertir los colors de la figura
+
+// Video: https://youtu.be/KBR3kA2MWcE
 
 // G: para generar un color random de grises
 
@@ -71,7 +74,7 @@ void draw(){
   noStroke();
   rectMode(CENTER);
   ellipseMode(CENTER);
-
+  
   rot();
   
   Ilu(600 + dx,200 + dy);
